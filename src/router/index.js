@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Layout from '@/view/Layout'
 import Login from '@/view/Login'
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/Home'
 
 Vue.use(Router)
 
@@ -25,7 +25,7 @@ const router = new Router({
         {
           path: '/home',
           name: 'home',
-          component: HelloWorld
+          component: Home
         }
       ]
     }
